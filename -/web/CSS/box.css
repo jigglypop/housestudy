@@ -14,9 +14,8 @@
 
 #red {
   background-color: red;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  position: relative;
+  
   /* 
   차이는 노란색의 위치 주목
   static(원래 있어야 할 위치)가 유지되지 않음.
@@ -25,34 +24,38 @@
 
 #gold {
   background-color: gold;
-  
+  position: relative;
+  left: 100px;
+  bottom: 100px;
 
 }
 
 #green {
   background-color: green;
-  position: relative;
+  position: absolute;
   left: 200px;
+  
 }
 
 #blue {
   background-color: blue;
-  position: relative;
-  left: 100px;
+  position: absolute;
+  left: 300px;
 }
 
 #pink {
   background-color: pink;
-  position: relative;
-  right: 0px;
-  top: 0px;
+  position: absolute;
+  left: 400px;
+  /* bottom: 200px; */
+  
 }
 
 /*  심화 */
 #purple {
   background-color: purple;
   position: absolute;
-  left: 300px;
+  left: 500px;
 
 }
 
