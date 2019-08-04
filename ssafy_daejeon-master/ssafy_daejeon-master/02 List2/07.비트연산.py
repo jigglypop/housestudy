@@ -1,6 +1,7 @@
 def BitPrint(n):
-    for i in range(7, -1, -1):
-        print(1 if (n & (1 << i)) else 0, end="")
+    for i in range(7, -1, -1):  # 7부터 0까지. 마지막은 -1 -(-1)
+                 # a,  b,  c 에서 범위는 a ~ (b-c)
+        print(1 if n & (1 << i) else 0, end="")
     print()
 
 
